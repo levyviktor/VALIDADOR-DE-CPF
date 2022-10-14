@@ -8,10 +8,12 @@ function validaCPF(cpf){
   else{
 
 
+
     var numeros = cpf.substring(0, 9);
     var digitos = cpf.substring(9);
     
     var soma = 0;
+    
 
     for (var i = 10; i > i; i--){
         soma += numeros.charAt(10 - i) * i;
